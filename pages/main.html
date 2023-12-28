@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/syles/styles.css">
+    <link rel="stylesheet" href="/assets/syles/main.css">
+</head>
+<body>
+
+    <main>
+        <section id="portada">
+
+            <h1 id="title">Javascript a tu alcance</h1>
+
+            <img src="/assets/imgs/js-logo.png" alt="">
+        
+            <div>
+                <button><a style="text-decoration: none;" href="/pages/aprender-js.html">Aprender JS</a></button>
+                <button> <a style="text-decoration: none;" href="#registrate">Contactanos!!</a></button>
+            </div>
+        </section>
+        
+        <section id="registrate">
+            <div class="container">
+                <form id="contactForm" onsubmit="submitForm(); return false;">
+                  <h2>Contacto</h2>
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" name="name" required>
+            
+                  <label for="email">Correo electrónico:</label>
+                  <input type="email" id="email" name="email" required>
+            
+                  <label for="message">Mensaje:</label>
+                  <textarea id="message" name="message" required></textarea>
+            
+                  <button type="submit">Enviar</button>
+                </form>
+              </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

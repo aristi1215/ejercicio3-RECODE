@@ -1,0 +1,105 @@
+
+#title {
+    font-size: 3rem;
+    color: beige;
+    animation: animatedTitle .4s;
+    position: absolute;
+    top: -100px; /* Fuera de la vista, arriba de la pantalla */
+    left: 50%;
+    transform: translateX(-50%);
+    animation: slideFromTop 1s forwards; /* 1 segundo de duración, retiene la posición final */
+  }
+  
+  @keyframes slideFromTop {
+    to {
+      top: 50px; /* Posición final deseada */
+    }
+  }
+#portada{
+    background-image: url(/assets/imgs/fond3.jpg);
+     background-position: top;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#portada img{
+    margin-top: 10rem;
+}
+#portada button{
+    margin: 5rem 2rem;
+    height: 3rem;
+    width: 7rem;
+    background-color: #BFA41B;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+    
+}
+#portada button:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+#registrate{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/imgs/fond3.jpg);
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #BFA41B;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #BFA41B;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #BFA41B;
+    background-color: burlywood;
+
+    transform: scale(1.1);
+  }
